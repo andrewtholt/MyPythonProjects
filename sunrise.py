@@ -44,7 +44,7 @@ class sun:
   self.__preptime(when)
   self.__calc()
   return sun.__timefromdecimalday(self.solarnoon_t)
-  
+
  @staticmethod
  def __timefromdecimalday(day):
   """
