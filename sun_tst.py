@@ -25,7 +25,9 @@ def nightime(s):
 
 
 s = sun(lat=53.664,long=-2.671)
+tmp=datetime.datetime.now()
+print tmp.hour,":",tmp.minute,":",tmp.second
 
-print daytime( s )
-print nightime( s )
+print "it is day ?  :",daytime( s )
+print "it is night ?:",nightime( s )
 
